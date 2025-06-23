@@ -14,7 +14,7 @@ window=sg.Window('My To-Do App',
                  layout=[[label],
                          [input_box,add_button],
                          [list_box,edit_button]],
-                 font=('Helvetica',10) )
+                 font=('Italian',10) )
 
 while True:
     event,values =window.read()
